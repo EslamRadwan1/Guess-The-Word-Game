@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Page description" />
+    <meta name="author" content="Eslam Radwan" />
+    <meta name="theme-color" content="#0d6efd" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:title" content="Guess The Word" />
+    <meta property="og:description" content="Guess The Word Web Game" />
+    <meta
+      property="og:image"
+      content="https://eslamradwan1.github.io/Guess-The-Word-Game/imgs/OG-Image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://eslamradwan1.github.io/Guess-The-Word-Game/"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Icons -->
+    <link rel="icon" href="imgs/icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/icon.png" />
+
+    <!-- Title -->
+    <title></title>
+
+    <!-- Styles -->
+    <!-- <link rel="canonical" href=""> -->
+    <!-- Render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- main CSS file -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preload" href="css/styles.css" as="style" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <h1></h1>
+    <div class="guess-game">
+      <div class="game-area">
+        <div class="inputs"></div>
+        <div class="control">
+          <button class="check">Check Word</button>
+          <button class="hint"><span></span> Hints</button>
+          <button class="regenerate">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </button>
+        </div>
+        <div class="message"></div>
+      </div>
+      <div class="key-colors">
+        <h2>Key Colors</h2>
+        <div class="key-color">
+          <div class="key in-place"></div>
+          <div class="key-text">Letter Is Correct and In Place</div>
+        </div>
+        <div class="key-color">
+          <div class="key not-in-place"></div>
+          <div class="key-text">Letter Is Correct But Not In Place</div>
+        </div>
+        <div class="key-color">
+          <div class="key no"></div>
+          <div class="key-text">Letter Is Wrong</div>
+        </div>
+      </div>
+    </div>
+    <footer>Made With ❤ By Eslam Radwan</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
